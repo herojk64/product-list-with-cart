@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: "RedHatText";
+  src: url('./assets/fonts/RedHatText-VariableFont_wght.ttf');
+}
+
+@theme{
+  --color-red-400:#c73a0f;
+  --color-green-400:#1ea475;
+  --color-rose-50:#fcf9f7;
+  --color-rose-100:#f4edeb;
+  --color-rose-300:#c9aea6;
+  --color-rose-400:#ad8985;
+  --color-rose-500:#87635a;
+  --color-rose-900:#260f08;
+  --text-base:16px;
+  --font-serif:"RedhatText";
+}
